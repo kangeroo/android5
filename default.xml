@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="aosp"
+           fetch="https://android.googlesource.com"
+           review="android-review.googlesource.com" />
+
+  <remote  name="github"
+           fetch=".."
+           review="review.cyanogenmod.org" />
+
+  <remote  name="private"
+           fetch="ssh://git@github.com" />
+
+  <default revision="refs/heads/cm-11.0"
+           remote="github"
+           sync-c="true"
+           sync-j="4" />
+
+  <project path="development" name="CyanogenMod/android_development" />
+  <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" groups="pdk" />
+  <project path="frameworks/base" name="CyanogenMod/android_frameworks_base" />
+  <project path="frameworks/native" name="CyanogenMod/android_frameworks_native" groups="pdk" />
+  <project path="frameworks/opt/calendar" name="CyanogenMod/android_frameworks_opt_calendar" />
+  <project path="frameworks/opt/carddav" name="CyanogenMod/android_frameworks_opt_carddav" />
+  <project path="frameworks/opt/colorpicker" name="CyanogenMod/android_frameworks_opt_colorpicker" />
+  <project path="frameworks/opt/datetimepicker" name="CyanogenMod/android_frameworks_opt_datetimepicker" />
+  <project path="frameworks/opt/emoji" name="CyanogenMod/android_frameworks_opt_emoji" />
+  <project path="frameworks/opt/hardware" name="CyanogenMod/android_frameworks_opt_hardware" />
+  <project path="frameworks/opt/inputmethodcommon" name="CyanogenMod/android_frameworks_opt_inputmethodcommon" />
+  <project path="frameworks/opt/mailcommon" name="CyanogenMod/android_frameworks_opt_mailcommon" />
+  <project path="frameworks/opt/mms" name="CyanogenMod/android_frameworks_opt_mms" />
+  <project path="frameworks/opt/net/voip" name="CyanogenMod/android_frameworks_opt_net_voip" />
+  <project path="frameworks/opt/photoviewer" name="CyanogenMod/android_frameworks_opt_photoviewer" />
+  <project path="frameworks/opt/timezonepicker" name="CyanogenMod/android_frameworks_opt_timezonepicker" />
+  <project path="frameworks/opt/telephony" name="CyanogenMod/android_frameworks_opt_telephony" groups="pdk" />
+  <project path="frameworks/opt/vcard" name="CyanogenMod/android_frameworks_opt_vcard" />
+  <project path="packages/apps/Apollo" name="CyanogenMod/android_packages_apps_Apollo" />
+  <project path="packages/apps/BasicSmsReceiver" name="CyanogenMod/android_packages_apps_BasicSmsReceiver" />
+  <project path="packages/apps/Bluetooth" name="CyanogenMod/android_packages_apps_Bluetooth" />
+  <project path="packages/apps/BluetoothExt" name="CyanogenMod/android_packages_apps_BluetoothExt" />
+  <project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser" />
+  <project path="packages/apps/Calculator" name="CyanogenMod/android_packages_apps_Calculator" />
+  <project path="packages/apps/Calendar" name="CyanogenMod/android_packages_apps_Calendar" />
+  <project path="packages/apps/Camera2" name="CyanogenMod/android_packages_apps_Camera2" />
+  <project path="packages/apps/CellBroadcastReceiver" name="CyanogenMod/android_packages_apps_CellBroadcastReceiver" />
+  <project path="packages/apps/CertInstaller" name="CyanogenMod/android_packages_apps_CertInstaller" />
+  <project path="packages/apps/CMAccount" name="CyanogenMod/android_packages_apps_CMAccount" />
+  <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" />
+  <project path="packages/apps/CMUpdater" name="CyanogenMod/android_packages_apps_CMUpdater" />
+  <project path="packages/apps/CMWallpapers" name="CyanogenMod/android_packages_apps_CMWallpapers" />
+  <project path="packages/apps/Contacts" name="CyanogenMod/android_packages_apps_Contacts" />
+  <project path="packages/apps/ContactsCommon" name="CyanogenMod/android_packages_apps_ContactsCommon" />
+  <project path="packages/apps/DeskClock" name="CyanogenMod/android_packages_apps_DeskClock" />
+  <project path="packages/apps/Dialer" name="CyanogenMod/android_packages_apps_Dialer" />
+  <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" />
+  <project path="packages/apps/Email" name="CyanogenMod/android_packages_apps_Email" />
+  <project path="packages/apps/Exchange" name="CyanogenMod/android_packages_apps_Exchange" />
+  <project path="packages/apps/Gallery2" name="CyanogenMod/android_packages_apps_Gallery2" />
+  <project path="packages/apps/HTMLViewer" name="CyanogenMod/android_packages_apps_HTMLViewer" />
+  <project path="packages/apps/InCallUI" name="CyanogenMod/android_packages_apps_InCallUI" />
+  <project path="packages/apps/KeyChain" name="CyanogenMod/android_packages_apps_KeyChain" />
+  <project path="packages/apps/Launcher3" name="CyanogenMod/android_packages_apps_Launcher3" />
+  <project path="packages/apps/LockClock" name="CyanogenMod/android_packages_apps_LockClock" />
+  <project path="packages/apps/Mms" name="CyanogenMod/android_packages_apps_Mms" />
+  <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" />
+  <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
+  <project path="packages/apps/PackageInstaller" name="CyanogenMod/android_packages_apps_PackageInstaller" />
+  <project path="packages/apps/PhoneCommon" name="CyanogenMod/android_packages_apps_PhoneCommon" />
+  <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" />
+  <project path="packages/apps/QuickSearchBox" name="CyanogenMod/android_packages_apps_QuickSearchBox" />
+  <project path="packages/apps/Settings" name="CyanogenMod/android_packages_apps_Settings" />
+  <project path="packages/apps/SmartCardService" name="CyanogenMod/android_packages_apps_SmartCardService" />
+  <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" />
+  <project path="packages/apps/SpeechRecorder" name="CyanogenMod/android_packages_apps_SpeechRecorder" />
+  <project path="packages/apps/Stk" name="CyanogenMod/android_packages_apps_Stk" />
+  <project path="packages/apps/Tag" name="CyanogenMod/android_packages_apps_Tag" />
+  <project path="packages/apps/UnifiedEmail" name="CyanogenMod/android_packages_apps_UnifiedEmail" />
+  <project path="packages/apps/Torch" name="CyanogenMod/android_packages_apps_Torch" />
+  <project path="packages/apps/Trebuchet" name="CyanogenMod/android_packages_apps_Trebuchet" />
+  <project path="packages/apps/VideoEditor" name="CyanogenMod/android_packages_apps_VideoEditor" />
+  <project path="packages/apps/VoiceDialer" name="CyanogenMod/android_packages_apps_VoiceDialer" />
+  <project path="packages/apps/VoicePlus" name="CyanogenMod/android_packages_apps_VoicePlus" />
+  <project path="packages/experimental" name="CyanogenMod/android_packages_experimental" />
+  <project path="packages/inputmethods/LatinIME" name="CyanogenMod/android_packages_inputmethods_LatinIME" />
+  <project path="system/core" name="CyanogenMod/android_system_core" groups="pdk" />
+  <project path="system/vold" name="CyanogenMod/android_system_vold" groups="pdk" />
+  <project path="vendor/cm" name="CyanogenMod/android_vendor_cm" />
+</manifest>
